@@ -1,0 +1,21 @@
+language: node_js
+
+# Version number
+node_js:
+  - 0.12
+  
+build:
+ # pre_ci:
+  #  - docker build -t=quay.io/revathird/cock1_nod_multipush56 .    
+    
+ # pre_ci_boot:
+   # image_name: drydock/u14nodall
+   # image_tag: master
+   # pull: false
+  #  options: '--privileged=false --net=bridge -e FOO=true -e BOO=false'
+
+  ci:
+    - echo "hello world"
+    - echo JobTriggerByName="$JOB_TRIGGERED_BY_NAME"
+    - echo JobTriggerById="$JOB_TRIGGERED_BY_ID"
+    
