@@ -1,7 +1,4 @@
-#sl
-#sleep 3m
-echo 'Hello runSh'
-#export Version4=versionNumberOfRepoIs4
-export Version9=versionNumberOfRepoIs9
-echo Version9=$Version9
-#echo 'slept well'
+echo "hello"
+echo "this is runsh script sample-script repo test branch"
+ecchho test
+echo "EOD"
