@@ -1,4 +1,4 @@
-#!/bin/bash -e
+!/bin/bash -e
 
 echo "hello"
 echo "this is runsh script sample-script repo test branch"
