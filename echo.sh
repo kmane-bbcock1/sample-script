@@ -2,8 +2,8 @@
 
 echo "hello"
 
-sudo docker pull shippabledocker/sample_node_pvt:officialimgtag #private image
-sudo docker pull shippabledocker/sample_node:officialimgtag #public image
+sudo docker pull shippabledocker/sample_node_pvt:master.37 #private image
+sudo docker pull shippabledocker/sample-node:latest.40 #public image
 
 lsb_release -a
 docker --version
