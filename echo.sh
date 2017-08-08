@@ -2,8 +2,8 @@
 
 echo "hello"
 
-sudo docker pull quay.io/revathird/docker:officialimgtag #private image
-#sudo docker pull quay.io/revathird/test-repo:officialimgtag #public image
+sudo docker pull quay.io/revathird/testnodeimg:latest  #private image
+sudo docker pull quay.io/revathird/test-repo:latest #public image
 
 lsb_release -a
 docker --version
