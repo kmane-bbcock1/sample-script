@@ -1,5 +1,5 @@
 #sl
-#sleep 3m
+sleep 1m
 echo 'Hello runSh!!'
 #export Version4=versionNumberOfRepoIs4
 export Version9=versionNumberOfRepoIs9
