@@ -1,6 +1,6 @@
 #sl
-#sleep 1m
-echo 'Hello runSh!'
+sleep 2m
+echo 'Hello runSh from public project!'
 #export Version4=versionNumberOfRepoIs4
 export Version9=versionNumberOfRepoIs9
 echo Version9=$Version9
