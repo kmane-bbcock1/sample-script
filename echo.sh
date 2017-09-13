@@ -6,4 +6,3 @@ lsb_release -a
 docker --version
 docker info
 docker ps
-sleep 2m
